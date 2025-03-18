@@ -40,7 +40,7 @@ function setup() {
             gameStarted = true;
             clearInterval(countdownInterval); // Stop the countdown when it reaches 0
         }
-    }, 1000);
+    }, 3000);
 }
 
 function ModelLoaded() {
