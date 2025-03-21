@@ -73,7 +73,7 @@ function draw() {
         textSize(30);
         fill("white");
         textAlign(CENTER, CENTER);
-        text("Ready? press ok. " + countdown, width / 2, height / 2);
+        text("Ready? press ok to start the game. " + countdown, width / 2, height / 2);
     } else {
         move();
     }
